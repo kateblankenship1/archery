@@ -1,0 +1,20 @@
+/* HEADER STYLES */
+
+header {
+  background-color: #03a3df;
+  position:absolute;
+  left:0;
+  top:0;
+  width: 100%;
+}
+
+.headertext {
+  font-family: "Arial Bold", sans-serif;
+  font-size: 40px;
+  color: white;
+}
+
+.logoimg {
+  width: 250px;
+  align-items: center;
+}
