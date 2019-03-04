@@ -63,7 +63,7 @@ li {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 50% 20%;
   grid-template-rows: auto auto auto auto;
   grid-column-gap: 20px;
   grid-row-gap: 30px;
@@ -75,6 +75,152 @@ grid-row-start: 1;
 grid-row-end: 2;
 }
 
+/* WELCOME SECTION */
+
+.welcomesection {
+  border: 3px solid #1b447f;
+  margin: 10px;
+}
+
+.wheaderlarge {
+  font-family: "Arial Bold", sans-serif;
+  font-size: 24px;
+  color: #1b447f;
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+.wheadersmall {
+  font-family: "Arial Bold", sans-serif;
+  font-size: 17px;
+  color: #1b447f;
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+.w1,.w2 {
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  color: #1b447f;
+  padding: 15px;
+}
+
+/* CLASSES */
+
+.classessection {
+  border: 1px solid #1b447f;
+  margin: 10px;
+}
+
+.classheader {
+  background-color: #444444;
+  color: #ecb722;
+  font-family: "Arial Bold", sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+.smallheader {
+  font-family: "Arial Bold", sans-serif;
+  font-size: 17px;
+  color: #444444;
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+.classes {
+  border: 2px solid #1b447f;
+}
+
+.classes p {
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  color: #444444;
+  padding: 10px;
+}
+
+/* MEET GIAP */
+
+.giap {
+  display: block;
+  align-items: center;
+  padding-left: 100px;
+}
+
+.giapheader {
+  font-family: "Arial Bold", sans-serif;
+  font-size: 17px;
+  color: #ecb722;
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+.giap p {
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    color: #444444;
+    padding: 10px;
+    border: .5px dashed #444444;
+  }
+}
+
+/* USER TESTIMONIES -- for some reason code won't work and I'm about to have an aneurysm so here ya go :D */
+
+.testimony {
+  font-family: "Arial Bold", sans-serif;
+  color: #03a3df;
+  text-transform: uppercase;
+}
+
+.username {
+  font-family: "Arial Bold", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #03a3df;
+  text-transform: uppercase;
+}
+
+/* PRIVATE LESSONS STYLES */
+
+.lesson {
+  background-color: #444444;
+  color: #ecb722;
+  font-family: "Arial Bold", sans-serif;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 15px;
+    margin-top: 40px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  border: 1.5px solid #444444;
+  margin-bottom: 40px;
+}
+
+.flex-container div {
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  color: #444444;
+  padding: 10px;
+  border-right: 1.5px solid #444444;
+  width: 100%;
+}
+
+.price {
+  color: #ecb722;
+  font-weight: bold;
+}
+
+/* ----------------------------------------------------------------------------------------------------------
+
+INSTRUCTORS PAGE STYLES
+
+*/
 
  /* FOOTER STYLES */
 
