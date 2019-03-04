@@ -220,7 +220,59 @@ grid-row-end: 2;
 
 INSTRUCTORS PAGE STYLES
 
-*/
+INTRODUCTION */
+
+.staffmainheader {
+  font-family: "Arial Bold", sans-serif;
+  font-size: 40px;
+  color: #444444;
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+
+.introinfo {
+  margin-top: 50px;
+  margin-right: 200px;
+  padding: 30px;
+  background-color: #444444;
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  color: white;
+}
+
+.bigbullseye {
+  margin: 30px;
+  padding: 20px;
+}
+
+/* PROFILES STYLES */
+
+.profiles {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  width: 60%;
+}
+
+.instructor {
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  text-align: center;
+  color: #1b447f;
+  padding: 10px;
+  border: 1px dashed #cccccc;
+  width: 100%;
+  margin: 30px;
+  padding: 30px;
+}
 
  /* FOOTER STYLES */
 
