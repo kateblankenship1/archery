@@ -1,10 +1,15 @@
+*{
+border: 0;
+padding: 0;
+margin: 0;
+}
+
 /* HEADER STYLES */
 
 header {
   background-color: #03a3df;
-  position:absolute;
-  left:0;
-  top:0;
+  margin: 0;
+  padding: 0;
   width: 100%;
 }
 
@@ -12,9 +17,82 @@ header {
   font-family: "Arial Bold", sans-serif;
   font-size: 40px;
   color: white;
+  text-transform: uppercase;
+}
+
+.bigarrow {
+  width: 500px;
+  float: right;
 }
 
 .logoimg {
   width: 250px;
+}
+
+/* NAVIGATION STYLES*/
+
+ul {
+  width: 100%;
+  background-color: #444444;
+  overflow: hidden;
+}
+
+li {
+   display: inline-block;
+ }
+
+ li a {
+   text-decoration: none;
+   text-transform: uppercase;
+   font-family: "Arial Bold", sans-serif;
+   font-size: 17px;
+   color: #ecb722;
+   display: block;
+   padding: 20px 30px 20px 30px;
+ }
+
+ li a:hover {
+   background-color: #828282;
+ }
+
+ .bullseye {
+   width: 50px;
+ }
+
+ /* FOOTER STYLES */
+
+footer {
+  background-image: url("https://imgur.com/rvEka7R.jpg");
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: "Arial Bold", sans-serif;
+  font-size: 10px;
+  color: white;
+}
+
+.footerbox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
+  width: 400px;
+  background-color: #444444;
+  padding: 50px;
+  margin-left: 700px;
+}
+
+.footerlogo {
+  width: 150px;
+  padding-bottom: 15px;
+}
+
+.footeraddress {
+  padding-bottom: 15px;
+}
+
+.footerdisc {
+  font-style: italic;
+  padding-bottom: 10px;
 }
