@@ -163,14 +163,14 @@ grid-row-end: 2;
     padding: 10px;
     border: .5px dashed #444444;
   }
-}
 
-/* USER TESTIMONIES -- for some reason code won't work and I'm about to have an aneurysm so here ya go :D */
+
+/* USER TESTIMONIES */
 
 .testimony {
-  font-family: "Arial Bold", sans-serif;
+  font-family: "Arial Regular", sans-serif;
+  font-size: 30px;
   color: #03a3df;
-  text-transform: uppercase;
 }
 
 .username {
@@ -179,6 +179,14 @@ grid-row-end: 2;
   font-weight: bold;
   color: #03a3df;
   text-transform: uppercase;
+}
+
+/* VIDEO */
+
+.video {
+  display: inline-block;
+  margin-left: 700px;
+  margin-right: auto;
 }
 
 /* PRIVATE LESSONS STYLES */
@@ -272,6 +280,31 @@ INTRODUCTION */
   width: 100%;
   margin: 30px;
   padding: 30px;
+}
+
+/* BOTTOM IMAGE */
+
+.bottomimage {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottomimage img {
+  width: 500px;
+}
+
+/* MEET UP */
+
+.meetup {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Arial Bold", sans-serif;
+  font-size: 24px;
+  color: #444444;
+  text-transform: uppercase;
+  width: 40%;
 }
 
  /* FOOTER STYLES */
